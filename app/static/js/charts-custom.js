@@ -73,7 +73,7 @@ $(document).ready(function () {
             labels: [
                 "First",
                 "Second",
-                "Third"
+                "Thirdo"
             ],
             datasets: [
                 {

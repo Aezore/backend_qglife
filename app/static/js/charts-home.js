@@ -82,11 +82,11 @@ $(document).ready(function () {
             labels: [
                 "First",
                 "Second",
-                "Third"
+                "Thirdo"
             ],
             datasets: [
                 {
-                    data: [variable.green_var, variable.orange_var, variable.blue_var],
+                    data: [variables.green_var, variables.orange_var, variables.blue_var],
                     borderWidth: [1, 1, 1],
                     backgroundColor: [
                         brandPrimary,

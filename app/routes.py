@@ -6,7 +6,7 @@ import random
 @app.route('/')
 @app.route('/index')
 def index():
-    green = randint(0, 500)
-    orange = randint(0, 500)
-    blue = randint(0, 500)
+    green = random.randint(0, 500)
+    orange = random.randint(0, 500)
+    blue = random.randint(0, 500)
     return render_template('index.html', title='Home', blue_var=blue, green_var=green, orange_var=orange)
