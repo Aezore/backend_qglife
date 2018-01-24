@@ -80,8 +80,8 @@ $(document).ready(function () {
         type: 'doughnut',
         data: {
             labels: [
-                "First",
-                "Second",
+                "Firsto",
+                "Secondo",
                 "Thirdo"
             ],
             datasets: [
