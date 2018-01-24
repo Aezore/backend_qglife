@@ -86,7 +86,7 @@ $(document).ready(function () {
             ],
             datasets: [
                 {
-                    data: [300, 50, 100],
+                    data: [variable.green_var, variable.orange_var, variable.blue_var],
                     borderWidth: [1, 1, 1],
                     backgroundColor: [
                         brandPrimary,
